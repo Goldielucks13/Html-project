@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+    .home-main-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .home-topbar {
+        background-color: #000320f5;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px; 
+    }
+
+    .home-topbar-logo {
+        max-width: 150px;
+        height: auto; 
+    }
+
+    .home-navbar {
+        display: flex;
+        background-color: #000320ef;
+        padding: 10px;
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+    .home-navbar-btn {
+        background-color: transparent;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    .home-navbar-btn:hover {
+        background-color: #ca004ee8;
+    }
+
+    .main-content {
+        display: flex;
+        flex: 1;
+    }
+
+    .left-content {
+        flex: 1;
+        background-image: url(img/lapulapu.jpg);
+        background-color: #130801cc;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .right-content {
+        flex: 1;
+        background-color: #691f16e8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .haluan {
+        background-image: url(img/lapucook.jpg);
+        background-repeat: no-repeat;
+        width: 30rem;
+        height: 30rem;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .right-content h4 {
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="home-main-div">
+        
+        <div class="home-topbar">
+            <a href="home.html">
+                <img class="home-topbar-logo" src="img/logo.png" alt="Logo">
+            </a>
+
+            
+            <div class="home-navbar">
+                <a href="home.html">
+                    <button class="home-navbar-btn">More Recipes</button>
+                </a>
+                <a href="aboutme.html">
+                    <button class="home-navbar-btn">About ME</button>
+                </a>
+                
+            </div>
+        </div>
+
+        
+        <div class="main-content">
+            <div class="left-content">
+                <h1 class="display-1">Escabeche Lapu Lapu</h1>
+                <div class="haluan"></div>
+            </div>
+            <div class="right-content">
+                <h6 class="h6"style="color: white;">Filipino Escabeche with crisply-fried grouper, pickled bell peppers, shredded papaya, and sweet and sour sauce. Delicious with steamed rice and perfect for holidays and special occasions. <br><br>
+                    Ingredients<br>
+                    1 (2 to 3 pounds) whole Lapu-Lapu<br>
+                    salt and pepper to taste<br>
+                    canola oil<br>
+                    1 onion, peeled and sliced thinly<br>
+                    3 cloves garlic, peeled and minced<br>
+                    1 thumb-size ginger, peeled and julienned<br>
+                    ½ small green papaya, peeled and grated<br>
+                    1 small red bell pepper, seeded and cut into strips<br>
+                    1 small green bell pepper, seeded and cut into strips<br>
+                    1 cup vinegar<br>
+                    ¼ cup sugar<br>
+                    2 tablespoons ketchup<br>
+                    ¼ cup water<br>
+                    1 tablespoons cornstarch<br><br>
+                    Instructions<br>
+                    1. Clean and gut the fish. Season with salt and pepper to taste. <br>
+                    2. In a wide pan over medium heat, heat about 2-inch deep of oil. Add fish and cook, turning once or twice, until golden, crisp, and cooked through. Remove from heat and drain on paper towels. Keep warm.<br>
+                    3. In a pan over medium heat, heat about 1 tablespoon of oil. Add onions, garlic, and ginger and cook, stirring occasionally, until softened. <br>
+                    4. Add grated papaya and bell peppers and cook, stirring regularly, until tender yet crisp. Remove from pan and keep warm.<br>
+                    5. In a saucepan over medium heat, combine vinegar, sugar, and ketchup.<br>
+                    6. Season with salt and pepper to taste. Bring to a boil.<br>
+                    7. In a small bowl, combine cornstarch and water. Stir until smooth. Add to the pan and continue to cook, whisking continuously, for about 1 to 2 minutes or until sauce thickens.<br>
+                    8. Place fried fish on a serving platter and garnish with the vegetable mixture. When ready to serve, pour sweet and sour sauce on top.<br></h6>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

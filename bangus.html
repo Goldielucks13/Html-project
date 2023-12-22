@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+    .home-main-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .home-topbar {
+        background-color: #000320f5;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+
+    .home-topbar-logo {
+        max-width: 150px; 
+        height: auto; 
+    }
+
+    .home-navbar {
+        display: flex;
+        background-color: #000320ef;
+        padding: 10px;
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+    .home-navbar-btn {
+        background-color: transparent;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    .home-navbar-btn:hover {
+        background-color: #ca004ee8;
+    }
+
+    .main-content {
+        display: flex;
+        flex: 1;
+    }
+
+    .left-content {
+        flex: 1;
+        background-image: url(img/bangus.jpg);
+        background-color: #130801cc;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .right-content {
+        flex: 1;
+        background-color: #441797b4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .haluan {
+        background-image: url(img/bangcook.jpg);
+        background-repeat: no-repeat;
+        width: 30rem;
+        height: 30rem;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .right-content h4 {
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="home-main-div">
+        
+        <div class="home-topbar">
+            <a href="home.html">
+                <img class="home-topbar-logo" src="img/logo.png" alt="Logo">
+            </a>
+
+            
+            <div class="home-navbar">
+                <a href="home.html">
+                    <button class="home-navbar-btn">More Recipes</button>
+                </a>
+                <a href="aboutme.html">
+                    <button class="home-navbar-btn">About ME</button>
+                </a>
+                
+            </div>
+        </div>
+
+        
+        <div class="main-content">
+            <div class="left-content">
+                <h1 class="display-1">Pritong Bangus or Daing na Bangus</h1>
+                <div class="haluan"></div>
+            </div>
+            <div class="right-content">
+                <h5 class="h5">Daing na Bangus is marinated in vinegar and spices and fried to golden perfection. This popular Filipino breakfast staple is easy to make, flavorful, and budget-friendly, too. Delicious with steamed or fried rice for breakfast or any meal of the day!<br><br>
+                    Ingredients <br><br>
+                    4 baby bangus, butterflied, gutted and deboned<br>
+                    1 cup vinegar<br>
+                    5 cloves garlic, peeled and crushed<br>
+                    1 teaspoon peppercorns, cracked<br>
+                    1 teaspoon salt<br>
+                    canola oil<br>
+                    Instructions<br>
+                    Wash bangus under cold running water, removing any leftover blood and entrails. Drain well.<br>
+                    In a wide, deep dish (large enough to fit the fish), combine vinegar, garlic, peppercorns, and salt. Whisk together until salt is dissolved.<br>
+                    Add fish, making sure they are fully submerged in the solution. Marinate in the refrigerator for at least 4 hours or overnight for best results.<br>
+                    Drain fish from the vinegar and wipe down any stray aromatics. Discard marinade.<br>
+                    In a wide pan over medium heat, heat about 1-inch deep of oil. Gently slide in fish and cook for about 3 to 5 minutes on each side or until golden and cooked through.<br>
+                    Remove from pan and drain on paper towels. Serve hot.<br></h5>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
